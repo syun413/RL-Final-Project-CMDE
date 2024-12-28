@@ -1,5 +1,4 @@
 # RL-Final-Project-CMDE
-# RLBench PPO - 
 ## Setup
 ```
 pip3 install torch torchvision torchaudio
