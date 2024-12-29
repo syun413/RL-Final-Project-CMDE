@@ -35,7 +35,7 @@ We utilize the previously developed work, VoxPoser (https://voxposer.github.io),
 In VoxPoser, the LLM and VLM generate the target map and avoidance map, which indicate regions of interest and regions to be avoided, respectively. In both maps, lower values correspond to areas that the agent should approach more closely, with the target map emphasizing regions to be prioritized and the avoidance map highlighting areas to be avoided. In our experiment, we leverage target map as the cost map for action guidance, and direct the agent towards regions that are deemed more favorable for task completion.
 
 ### CostMap Generation Steps
-1. Clone Voxposer repo, or use docker version. Docker version steps: https://hackmd.io/@khtu/rJBH0YvfJl
+1. Clone [Voxposer repo](https://github.com/huangwl18/VoxPoser.git) and follow its instructions, or use docker version. Docker version steps: https://hackmd.io/@khtu/rJBH0YvfJl
 
 2. In `playground.ipynb`, load `reach_target` task:
     ```
