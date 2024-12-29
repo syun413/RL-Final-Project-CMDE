@@ -1,0 +1,3 @@
+[submodule "VoxPoser"]
+	path = VoxPoser
+	url = https://github.com/huangwl18/VoxPoser.git
